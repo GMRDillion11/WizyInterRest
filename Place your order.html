@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device width,initial-scale=1.0" />
+  <title>Place Your Order</title>
+  <style>
+    body {
+      background: url('.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .order-container {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      width: 90%;
+      max-width: 500px;
+      color: #fff;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      background-color: #ff8800;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e07000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="order-container">
+    <h2>🍽 Place Your Order</h2>
+
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required placeholder="+234...">
+
+      <label for="address">Delivery Address:</label>
+      <input type="text" id="address" name="address" required placeholder="Enter your delivery address">
+
+    
+
+      <label for="message">Enter dish:</label>
+      <textarea id="message" name="message" rows="4" placeholder="E.g. No pepper, extra meat, call before delivery..."></textarea>
+
+      <button type="submit">✅ Submit Order</button>
+    </form>
+  </div>
+      <body style="background-color: lightblue;">
+
+</body>
+</html>
